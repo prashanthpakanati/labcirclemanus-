@@ -6,7 +6,7 @@
 - [x] **Responsive and accessible interaction** — Desktop and 390px mobile layouts checked; mobile overflow assertion passes with the player visible; semantic controls, keyboard-visible focus, reduced-motion support and inline validation are implemented.
 - [x] **Website walkthrough video** — A silent 30-second 1280×720 H.264 walkthrough uses real app captures, carries prototype/sample-only disclosures, and is embedded on the home page with native playback controls.
 - [x] **Prototype handoff** — README explains setup, behavior, browser-local data boundaries, missing integrations, video regeneration and next-launch steps; `LAUNCH_PLAN.md` prioritizes production blockers.
-- [x] **Verified local implementation** — All 8 automated tests, TypeScript diagnostics and production build pass; the work is ready as a local feature-branch commit.
-- [ ] **Public GitHub publication** — The selected remote is an empty **public** repository. No source or video has been pushed; keep it unpublished until the user approves the public upload.
+- [x] **Verified implementation** — All 8 automated tests, TypeScript diagnostics and production build pass; work is committed on `prototype/patient-experience`.
+- [x] **Public GitHub publication** — Following user approval, the feature branch was published to the selected public repository as commit `3956d7c` and is now its default branch.
 
 > Production launch is still blocked on authentication and consent, a server-backed catalogue and atomic provider inventory, authoritative pricing/payment, fulfilment operations, secure reports, notifications, monitoring and compliance approval. See `LAUNCH_PLAN.md`.
